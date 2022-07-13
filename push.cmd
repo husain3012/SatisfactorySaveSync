@@ -1,6 +1,6 @@
 COPY /Y %~1 .\
 REM Add a set and copy for each player ID
-set player1Saves=Saved\SaveGames\76561197966141175
+set player1Saves=Saved\SaveGames\76561198956867814
 COPY /Y %~nx1 %player1Saves%
 DEL /q /f .\*.sav
 
